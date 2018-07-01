@@ -1,8 +1,7 @@
-.grid__row {
-  display: flex;
-  background-color: green; }
-
 @media (min-width: 769px) {
+  .grid__row {
+    display: flex; }
+
   .grid__col--1 {
     width: 6.5%; }
 
@@ -38,5 +37,13 @@
 
   .grid__col--12 {
     width: 100%; } }
+[class^="grid__col--"] {
+  background-color: pink;
+  padding: 10px 0 10px 10px;
+  margin: 5px 0;
+  border-radius: 3px; }
+
+.grid__row {
+  margin-bottom: 43px; }
 
 /*# sourceMappingURL=styles.css.map */

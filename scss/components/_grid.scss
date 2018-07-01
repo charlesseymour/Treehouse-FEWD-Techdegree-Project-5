@@ -1,9 +1,7 @@
-.grid__row {
-  display: flex;
-  background-color: green;
-}
-
 @media (min-width: 769px) {
+  .grid__row {
+    display: flex;
+  }
   @for $i from 1 through $g-col-count {
     $context: g-context($g-col-width, $g-col-count, $g-gutter-width) !global;  
     $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
@@ -11,4 +9,15 @@
       width: percentage($target / $context);
     }
   }
+}
+
+[class^="grid__col--"] {
+  background-color: pink;
+  padding: 10px 0 10px 10px;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+
+.grid__row {
+  margin-bottom: 43px;
 }
