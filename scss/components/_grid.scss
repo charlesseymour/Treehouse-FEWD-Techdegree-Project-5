@@ -1,3 +1,8 @@
+.container {
+  width: 90%;
+  margin: 10px auto;
+}
+
 @media (min-width: 769px) {
   .grid__row {
     display: flex;
