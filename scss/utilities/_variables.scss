@@ -1,7 +1,34 @@
+// Fonts
+
 $font-url--google     : 'https://fonts.googleapis.com/css?family=Nunito';
 $font-family--primary : 'Nunito', sans-serif;
+
+// Grid
 
 $g-col-width    : 65px;
 $g-gutter-width : 20px;
 $g-col-count    : 12;
 $g-cont-max-w   : 1050px;
+
+// Colors
+
+// Grid System
+
+$riptide         : #80E8D1;  // .grid__col--12
+$shakespeare     : #3FABCA; // .grid__col--6
+$anakiwa         : #7EE6FD; // .grid__col--4
+$french-lilac    : #DEB2EE; // .grid__col--3
+$vista-blue      : #88D9A0;  // .grid__col--5
+$sea-pink        : #EC9FA3; // .grid__col--7
+$vivid-tangerine : #FD9F85; // .grid__col--8
+
+$g-sys-colors: (
+            3: $french-lilac,
+            4: $anakiwa,
+            5: $vista-blue,
+            6: $shakespeare,
+            7: $sea-pink,
+            8: $vivid-tangerine,
+           12: $riptide
+);
+  

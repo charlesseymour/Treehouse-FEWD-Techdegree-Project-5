@@ -17,10 +17,15 @@
 }
 
 [class^="grid__col--"] {
-  background-color: pink;
   padding: 10px 0 10px 10px;
   margin: 5px 0;
   border-radius: 3px;
+}
+
+@each $col-width, $color in $g-sys-colors {
+  .grid__col--#{$col-width}.theme__colors {
+    background-color: #{$color};
+  }
 }
 
 .grid__row {

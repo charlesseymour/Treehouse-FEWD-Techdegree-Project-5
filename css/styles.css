@@ -43,10 +43,30 @@
   .grid__col--12 {
     width: 100%; } }
 [class^="grid__col--"] {
-  background-color: pink;
   padding: 10px 0 10px 10px;
   margin: 5px 0;
   border-radius: 3px; }
+
+.grid__col--3.theme__colors {
+  background-color: #DEB2EE; }
+
+.grid__col--4.theme__colors {
+  background-color: #7EE6FD; }
+
+.grid__col--5.theme__colors {
+  background-color: #88D9A0; }
+
+.grid__col--6.theme__colors {
+  background-color: #3FABCA; }
+
+.grid__col--7.theme__colors {
+  background-color: #EC9FA3; }
+
+.grid__col--8.theme__colors {
+  background-color: #FD9F85; }
+
+.grid__col--12.theme__colors {
+  background-color: #80E8D1; }
 
 .grid__row {
   margin-bottom: 43px; }
