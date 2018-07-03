@@ -6,6 +6,7 @@
 @media (min-width: 769px) {
   .grid__row {
     display: flex;
+    margin: 0 -5px;
   }
   @for $i from 1 through $g-col-count {
     $context: g-context($g-col-width, $g-col-count, $g-gutter-width) !global;  
@@ -18,7 +19,7 @@
 
 [class^="grid__col--"] {
   padding: 10px 0 10px 10px;
-  margin: 5px 0;
+  margin: 5px;
   border-radius: 3px;
 }
 
@@ -30,4 +31,9 @@
 
 .grid__row {
   margin-bottom: 43px;
+}
+
+.centered {
+  margin-right: auto;
+  margin-left: auto;
 }
