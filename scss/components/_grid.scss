@@ -19,6 +19,7 @@
   .grid__col--12 {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }
 
@@ -30,6 +31,7 @@
     text-align: center;
   }
 }
+
 
 @each $col-width, $color in $g-sys-colors {
   .grid__col--#{$col-width}.theme__colors {
