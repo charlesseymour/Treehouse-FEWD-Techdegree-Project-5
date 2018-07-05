@@ -28,7 +28,8 @@
   font-weight: bold; }
   @media (min-width: 769px) {
     [class^="btn--"] {
-      margin: 5px 10px; } }
+      margin: 5px 10px;
+      flex: 1; } }
 
 .container {
   width: 90%;
