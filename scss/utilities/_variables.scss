@@ -3,6 +3,10 @@
 $font-url--google     : 'https://fonts.googleapis.com/css?family=Nunito';
 $font-family--primary : 'Nunito', sans-serif;
 
+// Media
+
+$breakpoint: 769px;
+
 // Grid
 
 $g-col-width    : 65px;
@@ -12,13 +16,30 @@ $g-cont-max-w   : 1050px;
 
 // Colors
 
+// Buttons
+
+$malibu                   : #51DDFC; // default
+$emerald                  : #63CC82; // success
+$sunglo                   : #E4757A; // error 
+$coral                    : #FD7856; // warning 
+$purple-mountains-majesty : #927BC1; // info
+
+$btn-colors: (
+    default: $malibu,
+    success: $emerald,
+    error  : $sunglo,
+    warning: $coral,
+    info   : $purple-mountains-majesty
+);
+
+
 // Grid System
 
-$riptide         : #80E8D1;  // .grid__col--12
+$riptide         : #80E8D1; // .grid__col--12
 $shakespeare     : #3FABCA; // .grid__col--6
 $anakiwa         : #7EE6FD; // .grid__col--4
 $french-lilac    : #DEB2EE; // .grid__col--3
-$vista-blue      : #88D9A0;  // .grid__col--5
+$vista-blue      : #88D9A0; // .grid__col--5
 $sea-pink        : #EC9FA3; // .grid__col--7
 $vivid-tangerine : #FD9F85; // .grid__col--8
 
@@ -31,4 +52,6 @@ $g-sys-colors: (
             8: $vivid-tangerine,
            12: $riptide
 );
+
+
   

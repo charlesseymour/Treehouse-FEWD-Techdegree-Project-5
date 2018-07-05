@@ -1,4 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
+.btn--default.theme__colors {
+  background-color: #51DDFC; }
+
+.btn--success.theme__colors {
+  background-color: #63CC82; }
+
+.btn--error.theme__colors {
+  background-color: #E4757A; }
+
+.btn--warning.theme__colors {
+  background-color: #FD7856; }
+
+.btn--info.theme__colors {
+  background-color: #927BC1; }
+
+[class^="btn--"] {
+  padding: 10px 55px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; }
+  @media (min-width: 769px) {
+    [class^="btn--"] {
+      margin: 5px 10px; } }
+
 .container {
   width: 90%;
   margin: 10px auto; }
@@ -42,11 +70,17 @@
     width: 91.5%; }
 
   .grid__col--12 {
-    width: 100%; } }
+    width: 100%; }
+
+  .grid__col--12 {
+    display: flex;
+    justify-content: space-evenly; } }
 [class^="grid__col--"] {
   padding: 10px 0 10px 10px;
   margin: 5px;
   border-radius: 3px; }
+  [class^="grid__col--"].theme__colors {
+    text-align: center; }
 
 .grid__col--3.theme__colors {
   background-color: #DEB2EE; }

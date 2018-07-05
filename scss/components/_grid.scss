@@ -3,7 +3,7 @@
   margin: 10px auto;
 }
 
-@media (min-width: 769px) {
+@media (min-width: $breakpoint) {
   .grid__row {
     display: flex;
     margin: 0 -5px;
@@ -15,12 +15,20 @@
       width: percentage($target / $context);
     }
   }
+  
+  .grid__col--12 {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 [class^="grid__col--"] {
   padding: 10px 0 10px 10px;
   margin: 5px;
   border-radius: 3px;
+  &.theme__colors {
+    text-align: center;
+  }
 }
 
 @each $col-width, $color in $g-sys-colors {

@@ -1,0 +1,21 @@
+@each $label, $color in $btn-colors {
+  .btn--#{$label}.theme__colors {
+    background-color: #{$color};
+  }
+}
+
+[class^="btn--"] {
+  padding: 10px 55px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  font-family: $font-family--primary;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+  @media (min-width: $breakpoint) {
+    margin: 5px 10px;
+  }
+}
+
