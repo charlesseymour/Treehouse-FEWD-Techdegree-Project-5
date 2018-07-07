@@ -31,10 +31,6 @@
       margin: 5px 10px;
       flex: 1; } }
 
-.container {
-  width: 90%;
-  margin: 10px auto; }
-
 @media (min-width: 769px) {
   .grid__row {
     display: flex;
@@ -115,7 +111,19 @@
   margin-right: auto;
   margin-left: auto; }
 
+[class^="img--"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+
+.img--frame {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  box-sizing: border-box; }
+
 .container {
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito", sans-serif;
+  width: 90%;
+  margin: 10px auto; }
 
 /*# sourceMappingURL=styles.css.map */
