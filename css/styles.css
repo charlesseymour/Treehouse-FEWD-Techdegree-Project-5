@@ -31,11 +31,19 @@
       margin: 5px 10px;
       flex: 1; } }
 
+@media (min-width: 769px) {
+  .btn--default[type] {
+    margin: 5px 0; } }
+
+.form > .headline--secondary {
+  padding-left: 20px; }
+
 .form__input {
   display: block;
+  width: 95%;
+  box-sizing: border-box;
   padding: 0 0 10px 10px;
   margin: 25px auto;
-  width: 95%;
   border: none;
   border-bottom: 5px solid #51DDFC;
   font-weight: bold;

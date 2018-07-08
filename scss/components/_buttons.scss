@@ -23,3 +23,9 @@
   }
 }
 
+.btn--default[type] {
+  @media (min-width: $breakpoint) {
+    margin: 5px 0;
+  }
+} 
+
