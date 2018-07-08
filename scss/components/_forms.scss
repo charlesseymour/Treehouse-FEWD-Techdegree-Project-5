@@ -1,0 +1,17 @@
+.form__input {
+  display: block;
+  padding: 0 0 10px 10px;
+  margin: 25px auto;
+  width: 95%;
+  border: none;
+  border-bottom: 5px solid map-get($btn-colors, 'default');
+  font-weight: bold;
+  font-size: 1.01em;
+  &:nth-child(4) {
+    margin-bottom: 35px;
+  }
+}
+
+.form__label--hidden {
+  display: none;
+}
