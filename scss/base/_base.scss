@@ -7,3 +7,14 @@
 .headline--secondary {
   margin-bottom: 20px;
 }
+
+.link {
+  color: map-get($btn-colors, 'default');
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  padding-right: 20px;
+}
