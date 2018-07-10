@@ -144,6 +144,31 @@
   padding: 10px;
   box-sizing: border-box; }
 
+[href^="#"] {
+  text-decoration: none;
+  vertical-align: middle; }
+
+[href^="#"]:link {
+  color: black; }
+
+[href^="#"]:visited {
+  color: black; }
+
+.nav {
+  padding-left: 0px; }
+
+.nav__item {
+  list-style-type: none;
+  height: 53px;
+  width: 100%;
+  text-align: center;
+  line-height: 53px; }
+  .nav__item:first-child {
+    background-color: #51DDFC;
+    border-radius: 5px; }
+    .nav__item:first-child [href^="#"] {
+      color: white; }
+
 .headline--primary {
   color: #51DDFC;
   padding-left: 20px;

@@ -1,0 +1,33 @@
+[href^="#"] {
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+[href^="#"]:link {
+  color: black;
+}
+
+[href^="#"]:visited {
+  color: black;
+}
+
+.nav {
+  padding-left: 0px;
+}
+
+.nav__item {
+  list-style-type: none;
+  height: 53px;
+  width: 100%;
+  text-align: center;
+  line-height: 53px;
+  
+  &:first-child {
+    background-color: map-get($btn-colors, 'default');
+    border-radius: 5px;
+    & [href^="#"] {
+      color: white;
+    }
+  }
+}
+
