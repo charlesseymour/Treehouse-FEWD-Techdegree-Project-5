@@ -95,7 +95,8 @@
   .grid__col--12 {
     width: 100%; }
 
-  .grid__col--12 {
+  .grid__col--12,
+  .grid__col--9 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; } }
@@ -169,6 +170,18 @@
     .nav__item:first-child [href^="#"] {
       color: white; }
 
+@media (min-width: 769px) {
+  .nav {
+    display: inline-flex !important;
+    flex-direction: row;
+    width: 80%;
+    justify-content: flex-start; }
+
+  .nav__item {
+    display: inline-flex;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 1.3em; } }
 .headline--primary {
   color: #51DDFC;
   padding-left: 20px;

@@ -31,3 +31,18 @@
   }
 }
 
+@media (min-width: $breakpoint) {
+  .nav {
+    display: inline-flex !important;
+    flex-direction: row;
+    width: 80%;
+    justify-content: flex-start;
+  }
+  
+  .nav__item {
+    display: inline-flex;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 1.3em;
+  }
+}  
