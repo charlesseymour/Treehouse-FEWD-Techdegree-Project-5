@@ -1,13 +1,13 @@
-[href^="#"] {
+.nav__item > [href^="#"] {
   text-decoration: none;
   vertical-align: middle;
 }
 
-[href^="#"]:link {
+.nav__item > [href^="#"]:link {
   color: black;
 }
 
-[href^="#"]:visited {
+.nav__item > [href^="#"]:visited {
   color: black;
 }
 
