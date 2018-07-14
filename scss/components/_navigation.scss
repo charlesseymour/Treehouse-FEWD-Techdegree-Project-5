@@ -31,7 +31,7 @@
   }
 }
 
-@media (min-width: $breakpoint) {
+@include mq(large) {
   .nav {
     display: inline-flex !important;
     flex-direction: row;

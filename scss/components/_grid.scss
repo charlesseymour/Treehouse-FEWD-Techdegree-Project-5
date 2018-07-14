@@ -1,6 +1,6 @@
 
 
-@media (min-width: $breakpoint) {
+@include mq(large) {
   .grid__row {
     display: flex;
     margin: 0 -5px;

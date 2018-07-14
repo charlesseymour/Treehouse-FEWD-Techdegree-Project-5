@@ -17,14 +17,14 @@
   text-transform: uppercase;
   font-weight: bold;
   
-  @media (min-width: $breakpoint) {
+  @include mq(large) {
     margin: 5px 10px;
     flex: 1;
   }
 }
 
 .btn--default[type] {
-  @media (min-width: $breakpoint) {
+  @include mq(large) {
     margin: 5px 0;
   }
 } 
