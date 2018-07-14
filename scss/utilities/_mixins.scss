@@ -8,3 +8,9 @@
     @error "#{$break} is not a valid breakpoint value.";
   }
 }
+
+@mixin flexbox($display, $flex-wrap: null, $flex-direction: null) {
+  display: $display;
+  flex-wrap: $flex-wrap;
+  flex-direction: $flex-direction;
+}

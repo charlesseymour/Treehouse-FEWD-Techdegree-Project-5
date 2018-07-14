@@ -2,7 +2,7 @@
 
 @include mq(large) {
   .grid__row {
-    display: flex;
+    @include flexbox($display: flex);
     margin: 0 -5px;
   }
   @for $i from 1 through $g-col-count {
@@ -15,9 +15,8 @@
   
   .grid__col--12,
   .grid__col--9, {
-    display: flex;
+    @include flexbox($display: flex, $flex-wrap: wrap);
     justify-content: space-evenly;
-    flex-wrap: wrap;
   }
 }
 

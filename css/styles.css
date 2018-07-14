@@ -98,8 +98,8 @@
   .grid__col--12,
   .grid__col--9 {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
 [class^="grid__col--"] {
   padding: 10px 0 10px 10px;
   margin: 5px;
@@ -172,7 +172,7 @@
 
 @media (min-width: 769px) {
   .nav {
-    display: inline-flex !important;
+    display: inline-flex;
     flex-direction: row;
     width: 80%;
     justify-content: flex-start; }
