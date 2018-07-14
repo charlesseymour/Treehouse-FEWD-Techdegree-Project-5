@@ -1,0 +1,31 @@
+%link {
+  color: map-get($btn-colors, 'default');
+  font-weight: bold;
+  text-decoration: none;
+}
+
+%image {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+}
+
+%hdline-primary {
+  color: map-get($btn-colors, 'default');
+  padding-left: 20px;
+  padding-right: 100px;
+  line-height: 110%;
+}
+
+%hdline-secondary {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+%nav-item {
+  list-style-type: none;
+  height: 53px;
+  width: 100%;
+  text-align: center;
+  line-height: 53px;
+}

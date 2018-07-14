@@ -5,14 +5,11 @@
 }
 
 .headline--secondary {
-  margin-top: 0px;
-  margin-bottom: 20px;
+  @extend %hdline-secondary;
 }
 
 .link {
-  color: map-get($btn-colors, 'default');
-  font-weight: bold;
-  text-decoration: none;
+  @extend %link;
 }
 
 p {

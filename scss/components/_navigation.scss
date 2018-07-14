@@ -16,11 +16,7 @@
 }
 
 .nav__item {
-  list-style-type: none;
-  height: 53px;
-  width: 100%;
-  text-align: center;
-  line-height: 53px;
+  @extend %nav-item;
   
   &:first-child {
     background-color: map-get($btn-colors, 'default');

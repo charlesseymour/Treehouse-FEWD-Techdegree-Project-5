@@ -1,8 +1,5 @@
 .headline--primary {
-  color: map-get($btn-colors, 'default');
-  padding-left: 20px;
-  padding-right: 100px;
-  line-height: 110%;
+  @extend %hdline-primary;
 }
 
 .blockquote {
